@@ -1,33 +1,49 @@
 .App {
   text-align: center;
+  margin: 0 auto;
+
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+#header {
+  height: 100vh;
+  width: 100%;
+  background: url('http://sicilyfarm.com/wp-content/uploads/2017/02/cropped-e23948196bd52798951550aeb1f0223a.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 0;
   color: white;
+  display: grid;
+  grid-template-rows: 1fr 5fr;
+
+}
+.header-text {
+  align-self: center;
+
+}
+.header-text h1 {
+  margin-bottom: 55px;
 }
 
-.App-link {
-  color: #61dafb;
+#navigation {
+  max-height: 80px;
+  min-height: 40px;;
+
+}
+.list {
+
+  list-style: none;
+  display: inline;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 5%;
+  width: 40%;
+  padding: 0;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.list li, a  {
+  margin: 2% 5%;
+  text-decoration: none;
+  color: black;
 }
