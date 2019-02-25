@@ -5,7 +5,7 @@ import Button from 'react-bootstrap/Button'
 const Header = () => {
   return (
     <div id="header">
-      <Navigation />
+      <Navigation  />
       <div className="header-text">
         <h1 style={{fontSize: '64px'}}>Eolive</h1>
         <h3>Spanish Oil for people who like oil and stuff</h3>
